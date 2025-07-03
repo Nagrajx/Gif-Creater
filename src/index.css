@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+
+/* css background-image generated using https://10015.io/tools/css-bad:\mern stack\Dot-Batch_WebDevelopment-Notes-main\Projects\25 - Random GIFs\.envckground-pattern-generator */
+.background {
+background-image: radial-gradient(#020101 1.5px, transparent 1.5px), radial-gradient(#020101 1.5px, transparent 1.5px);
+background-size: 35px 35px;
+background-position: 0 0, 17.5px 17.5px;
+background-color: #3bedf5;
+}
+
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border: 11.2px #474bff double;
+   border-left-style: solid;
+   border-radius: 50%;
+   animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+   to {
+      transform: rotate(360deg);
+   }
+}
