@@ -8,7 +8,7 @@ const Tags = () => {
 
     // const [gif, setGif] = useState('');
     // const [loding, setLoading] = useState('false');
-    const [tag, setTags] = useState(" ");
+    const [tag, setTags] = useState(" car ");
     // async function fetchData() {
     //     setLoading(true);
     //     const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=${tag}`;
