@@ -20,7 +20,7 @@ const randomUrl = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
     }
 
     useEffect(() => {
-        fetchData('car');
+        fetchData('');
     }, [])
 
     return {gif,loding,fetchData};
