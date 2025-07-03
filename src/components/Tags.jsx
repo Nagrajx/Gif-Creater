@@ -41,9 +41,10 @@ const Tags = () => {
 
             <input type="text"
                 className="bg-white w-10/12 rounded-md p-3 text-center"
+                placeholder="Type here what type Gif you want"
                 onChange={(event) => setTags(event.target.value)}
                 value={tag}
-                placeholder="Type here what type Gif you want"
+                
             />
 
             <button onClick={() => fetchData(tag)} className="bg-yellow-400 w-10/12 p-3 rounded-md text-lg font-semibold cursor-pointer mb-5 " >
